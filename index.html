@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Scrapbook</title>
+  <meta name="description" content="Privacy Policy for Scrapbook, a social scrapbooking app owned and operated by Ashton Searcy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #faf9f6;
+      --card: #ffffff;
+      --text: #1a1a2e;
+      --text-muted: #6b7280;
+      --border: #e5e7eb;
+      --primary: #8b5cf6;
+      --primary-light: #ede9fe;
+      --accent: #f43f5e;
+      --radius: 16px;
+    }
+
+    body {
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px dashed var(--border);
+      position: relative;
+    }
+
+    .header::after {
+      content: "✂️";
+      position: absolute;
+      bottom: -13px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 20px;
+      background: var(--bg);
+      padding: 0 10px;
+    }
+
+    .logo {
+      font-family: "Caveat", cursive;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .logo-icon { font-size: 1.8rem; }
+
+    .subtitle {
+      font-family: "Caveat", cursive;
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .effective-date {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 0.35rem 1rem;
+      border-radius: 999px;
+    }
+
+    /* Card */
+    .card {
+      background: var(--card);
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2rem 2rem 2.5rem;
+    }
+
+    .intro p {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+
+    /* Sections */
+    .section {
+      padding-top: 1.75rem;
+      margin-top: 0.25rem;
+    }
+
+    .section + .section {
+      border-top: 1px solid var(--border);
+      margin-top: 0.5rem;
+    }
+
+    .section h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .section p {
+      font-size: 0.95rem;
+      color: var(--text);
+      margin-bottom: 0.6rem;
+    }
+
+    .section ul, .section ol {
+      margin: 0.5rem 0 0.75rem 1.5rem;
+      font-size: 0.95rem;
+    }
+
+    .section li {
+      margin-bottom: 0.3rem;
+      line-height: 1.6;
+    }
+
+    .section a {
+      color: var(--primary);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .section a:hover {
+      color: #7c3aed;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 2px dashed var(--border);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .footer p { margin-bottom: 0.25rem; }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.85rem;
+      margin-bottom: 1rem;
+    }
+
+    .back-link:hover { text-decoration: underline; }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      .page { padding: 1rem 1rem 3rem; }
+      .card { padding: 1.25rem; }
+      .logo { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <div class="logo">
+        <span class="logo-icon">📖</span>
+        Scrapbook
+      </div>
+      <p class="subtitle">Where your memories come to life</p>
+      <span class="effective-date">Effective: July 5, 2026</span>
+    </div>
+
+    <div class="card">
+      <div class="intro">
+        <p>
+          This Privacy Policy explains how Scrapbook ("Scrapbook," "we," "us,"
+          or "our") collects, uses, stores, and protects information when you
+          use the Scrapbook mobile application and related services collectively
+          referred to as the "App."
+        </p>
+        <p>
+          Scrapbook is owned and operated by Ashton Searcy. By using the App,
+          you agree to the practices described in this Privacy Policy.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>1. Information We Collect</h2>
+        <p>We collect the following information when you create and use a Scrapbook account:</p>
+        <ul>
+          <li>Name;</li>
+          <li>Username;</li>
+          <li>Email address;</li>
+          <li>Optional profile photo;</li>
+          <li>Content you post, upload, or share, including images, text, and audio;</li>
+          <li>Comments, likes, shares, and other interactions;</li>
+          <li>Messages sent through the App.</li>
+        </ul>
+        <p>We do not knowingly collect personal information from children under 13.</p>
+      </div>
+
+      <div class="section">
+        <h2>2. Information You Choose to Provide</h2>
+        <p>You may choose to provide content and information when you:</p>
+        <ul>
+          <li>Create or update your profile;</li>
+          <li>Upload photos or other content;</li>
+          <li>Add text or audio to posts;</li>
+          <li>Comment on posts;</li>
+          <li>Like or share posts;</li>
+          <li>Send messages;</li>
+          <li>Report content or users;</li>
+          <li>Contact us for support.</li>
+        </ul>
+        <p>Posts and profile content on Scrapbook are public.</p>
+      </div>
+
+      <div class="section">
+        <h2>3. Camera and Photo Library Access</h2>
+        <p>
+          Scrapbook may request access to your camera and photo library so you
+          can create, upload, and share content. We only access your camera or
+          photo library when you give permission through your device settings.
+          You can change or revoke these permissions at any time in your device
+          settings.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>4. Information We Do Not Collect</h2>
+        <p>Based on our current app functionality, Scrapbook does not collect:</p>
+        <ul>
+          <li>Precise location;</li>
+          <li>Approximate location;</li>
+          <li>Contacts;</li>
+          <li>Phone number;</li>
+          <li>Birthday;</li>
+          <li>Payment information;</li>
+          <li>Advertising identifiers for tracking;</li>
+          <li>Analytics data;</li>
+          <li>Crash reporting data.</li>
+        </ul>
+        <p>
+          Scrapbook does not currently use third-party advertising networks,
+          analytics tools, or payment processors.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>5. How We Use Information</h2>
+        <p>We use the information we collect to:</p>
+        <ul>
+          <li>Create and manage user accounts;</li>
+          <li>Allow users to post, customize, and share content;</li>
+          <li>Display profiles, posts, comments, likes, shares, and messages;</li>
+          <li>Enable social features;</li>
+          <li>Support reporting and blocking features;</li>
+          <li>Review reports and moderate content;</li>
+          <li>Use keyword filters to help identify prohibited content;</li>
+          <li>Respond to support requests;</li>
+          <li>Maintain the safety and integrity of the App;</li>
+          <li>Enforce our Terms of Service;</li>
+          <li>Comply with applicable law.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>6. Public Information</h2>
+        <p>
+          Scrapbook is a public social media app. Your profile and posts are
+          public by default. Other users may be able to view your username,
+          name, profile photo, posts, comments, likes, shares, and other public
+          activity. Do not post personal information or content that you do not
+          want others to see.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>7. Messages</h2>
+        <p>
+          Scrapbook allows users to send messages. Messages are not end-to-end
+          encrypted. We may access or review messages when necessary for safety,
+          moderation, support, security, legal compliance, or enforcement of our
+          Terms of Service.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>8. Moderation and Safety</h2>
+        <p>
+          Scrapbook allows users to report content and block other users. We
+          manually review reports and use keyword filters to help identify
+          certain types of prohibited content. We may remove content, restrict
+          access, suspend accounts, or terminate accounts if we believe a user
+          has violated our Terms of Service or created a safety risk.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>9. How We Store Information</h2>
+        <p>
+          Scrapbook uses Supabase to help store and operate account information,
+          user content, and app data. Your information may be stored and
+          processed by Supabase or related infrastructure providers that help
+          operate the App.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>10. How We Share Information</h2>
+        <p>
+          We do not sell your personal information. We do not share your
+          personal information with advertisers. We may share information only
+          in limited circumstances, such as:
+        </p>
+        <ul>
+          <li>With service providers that help us operate the App, such as Supabase;</li>
+          <li>When necessary to comply with law, legal process, or government requests;</li>
+          <li>To protect the safety, rights, or property of Scrapbook, users, or others;</li>
+          <li>To enforce our Terms of Service;</li>
+          <li>In connection with a business transfer, merger, acquisition, or similar event.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>11. Data Retention</h2>
+        <p>
+          We keep your account information and content while your account is
+          active. When you delete your account through your profile in the App,
+          your account and associated data are deleted from Scrapbook's active
+          records, unless retention is required for legal, security, fraud
+          prevention, dispute resolution, or other legitimate reasons. We do not
+          retain deleted account data for separate backup or legal retention
+          purposes.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>12. Account and Data Deletion</h2>
+        <p>
+          You may delete your account and request deletion of your data directly
+          in the App through your profile. To delete your account:
+        </p>
+        <ol>
+          <li>Open Scrapbook;</li>
+          <li>Go to your profile;</li>
+          <li>Open the settings menu;</li>
+          <li>Select the account deletion option;</li>
+          <li>Confirm deletion.</li>
+        </ol>
+        <p>
+          You may also contact us with privacy or deletion questions at:
+          <a href="mailto:ashton.searcy@icloud.com">ashton.searcy@icloud.com</a>.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>13. Children's Privacy</h2>
+        <p>
+          Scrapbook is intended for users who are at least 13 years old. We do
+          not knowingly collect personal information from children under 13. If
+          we learn that we have collected personal information from a child
+          under 13, we will take reasonable steps to delete that information.
+        </p>
+        <p>
+          If you believe a child under 13 has provided personal information
+          through Scrapbook, contact us at:
+          <a href="mailto:ashton.searcy@icloud.com">ashton.searcy@icloud.com</a>.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>14. Your Choices</h2>
+        <p>You may:</p>
+        <ul>
+          <li>Update your profile information in the App;</li>
+          <li>Delete your account through your profile;</li>
+          <li>Stop posting public content;</li>
+          <li>Block other users;</li>
+          <li>Report content or users;</li>
+          <li>Change camera and photo library permissions through your device settings;</li>
+          <li>Contact us with privacy questions.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>15. Security</h2>
+        <p>
+          We use reasonable measures designed to protect information. However,
+          no app, website, server, or internet transmission is completely
+          secure. We cannot guarantee absolute security.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>16. International Users</h2>
+        <p>
+          Scrapbook is operated from the United States. If you use the App from
+          outside the United States, your information may be processed in the
+          United States or other locations where our service providers operate.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>17. Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time. If we make
+          material changes, we may notify users through the App or by other
+          reasonable means. Your continued use of Scrapbook after the updated
+          Privacy Policy becomes effective means you accept the updated policy.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>18. Contact Us</h2>
+        <p>
+          If you have questions about this Privacy Policy or your personal
+          information, contact us at:
+          <a href="mailto:ashton.searcy@icloud.com">ashton.searcy@icloud.com</a>.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2026 Ashton Searcy — Scrapbook</p>
+      <p>Last updated: July 5, 2026</p>
+    </div>
+  </div>
+</body>
+</html>
